@@ -1,0 +1,89 @@
+<!--
+EECS 330 Login Page
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Login Page</title>
+</head>
+
+<body>
+  <div id="loginpage">
+  
+	<div id="title">
+		Login
+	</div>
+	
+	
+	<div class="section" id="menu">
+	
+	<div id="caption">
+		Enter your credentials here:
+	</div>
+
+	<div>
+		<input type="text" id="username" placeholder="Username"></input>
+	</div>
+	
+	<div>
+		<input type="password" id="password" placeholder="Password"></input>
+	</div>
+	
+	<div>
+		<button type="button" onclick="window.location='homepage.html';" id="login">Login</button>
+	</div>
+	
+	</div>
+
+  </div>
+
+<style>
+
+body {
+	font-family: Times New Roman, sans-serif;
+	color: Purple;
+}
+
+#loginpage {
+	height: 500px;
+	width: 600px;
+	background-color: LightYellow;
+}
+
+#title {
+	font-size: 40px;
+	font-style: italic;
+	margin-left: 90px;
+	position: relative;
+	top: 30px;
+}
+
+#menu {
+	margin-left: 150px;
+	font-size: 35px;
+}
+
+#caption {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+#username, #password {
+	height: 25px;
+	width: 300px;
+}
+
+#login {
+	height: 25px;
+	width: 120px;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+
+</style>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Friend's Page
+    </title>
+    <!--<link rel="stylesheet" href="gymbuddycss2.css">-->
+</head>
+
+<body>
+
+    <div id="FriendsPage">
+        <h2 id="title">Friends</h2>
+           <span id="add">Add Friend <button>+</button></span>
+
+        <div class="FriendsBoxes" id="friendbox">
+            <ul id="friendsList">
+				<li><a href="scottsterlingschedule.html">Scott Sterling <img src="Calendar.png" /></a></li>
+                <li><a href="tombradyschedule.html">Tom Brady <img src="Calendar.png" /></a></li>
+                <li><a href="julieschedule.html">Juliusz Choinski <img src="Calendar.png" /></a></li>
+                <li><a href="alexoplawskischedule.html">Alex Oplawski <img src="Calendar.png" /></a></li>
+                <li><a href="marknelsonschedule.html">Mark Nelson <img src="Calendar.png" /></a></li>
+                <li><a href="marcmalinowskischedule.html">Marc Malinowski<img src="Calendar.png" /></a></li>
+                </ul>
+        </div>
+        <button onclick="window.location='homepage.html';" id="back">Back</button>
+    </div>
+
+<style>
+
+body {
+    font: 30px arial, sans-serif;
+    color: black;
+}
+
+#FriendsPage {
+    height: 500px;
+    width: 600px;
+    background-color: #69D2E7;
+    /*color:#E0E4CC;*/
+    color: #FA6900;
+
+}
+
+#FriendsPage h2 {
+    text-align: center;
+    font: #E0E4CC;
+}
+
+h2{
+        margin-top:50px;
+}
+
+button{
+    background-color:black;
+    color:#E0E4CC;
+}
+
+button:hover{
+    background-color:orange;
+}
+
+ul#friendsList {
+    width:400px;
+    display:table;
+    table-layout:fixed;
+    margin-left: 50px;
+    height:330px;
+}
+
+ul#friendsList li a {
+    display:block;
+    background-color:black;
+    color:#E0E4CC;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 40px;
+    border-radius: 4px 4px 0 0;
+    text-align:center;
+}
+
+ul#friendsList li a:hover{
+    background-color: orange;
+}
+
+li{
+    list-style-type:none;
+}
+
+#add
+{
+    float:right;
+    font-size:small;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+img {
+    float:right;
+    width:25px; 
+    height:25px;
+}
+
+#back{
+    background-color: black;
+    color:#E0E4CC;
+    border-radius: 4px 4px 0 0;
+    float:right;
+    margin-right: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+
+#back:hover{
+    background-color:orange;
+}
+
+</style>
+	
+</body>
+</html>
